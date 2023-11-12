@@ -74,17 +74,14 @@ p{
     color: #fff;
 }
 
-.banner{
-    border: 2px solid red;
-    
-}
+
+
 
 .option{
     position: absolute;
     bottom: -15%;
     width: 80%;
     justify-self: center;
-    border: 2px solid red;
 }
 
 .option h4{
@@ -418,21 +415,21 @@ form input{
     .banner-text h1{
         font-size: 1.6rem;
         font-weight: bold;
-        width: max-content;
+        width: fit-content;
         color: var(--third-color);
-        
+    
     }
     
 
     .banner-text{
         margin: 0px 0px;
         margin: 0 auto;
-        max-width: 70%;
+        max-width: 100%;
     }
     
     .banner-btn {
         margin: 0 auto;
-        width: 40%;
+        width: fit-content;
     }
 
     .banner-img{
